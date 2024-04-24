@@ -1,0 +1,47 @@
+* {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    color: #332e2e;
+}
+
+.card {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff7f3;
+}
+
+.header-name {
+    font-family: "Cedarville Cursive", cursive;
+}
+
+.head-container {
+    margin-top: 8em;
+}
+
+.header {
+    font-size: 4em;
+    font-weight: 600;
+    border-bottom: 2px dashed #332e2e;
+}
+
+.subheader {
+    font-size: 2em;
+}
+
+@media screen and (max-width:700px){
+    .head-container {
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width:700px){
+    .mobile-none {
+        display: none;
+    }
+}
+
